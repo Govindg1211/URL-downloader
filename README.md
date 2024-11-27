@@ -1,27 +1,122 @@
-# URL-downloader
+# URL File Downloader - User Manual
 
-Project Description:
-The URL Downloader is a simple Python application that allows users to download files from the internet by providing a URL. The application features a graphical user interface (GUI) built with Tkinter, making it user-friendly and accessible for individuals who may not be familiar with command-line tools.
+---
 
-Key Features:
-URL Input: Users can enter the URL of the file they wish to download.
-Filename Input: Users can specify the name they want to give to the downloaded file.
-Destination Path Selection: Users can select a directory where the downloaded file will be saved.
-File Downloading: The application fetches the file from the specified URL and saves it to the chosen location on the user's device.
-User-Friendly Interface: The GUI makes it easy for users to interact with the application without needing programming knowledge.
+## Prerequisites & Requirements
 
-Prerequisites:
-Before running the URL Downloader application, ensure you have the following:
-Python: Make sure Python is installed on your machine (preferably Python 3.x).
-Requests Library: This library is used for making HTTP requests to download files. You can install it using pip:
-pip install requests
-Tkinter: This library is included with standard Python installations, but if you're using a minimal installation, you might need to install it separately.
+Before using the URL File Downloader application, make sure you have the following installed:
 
-Required Libraries:
-The following libraries are utilized in this project:
-requests: This library is used to make HTTP requests and handle file downloads.
-tkinter: This module is used for creating the GUI of the application.
-tkinter.filedialog: This submodule provides functions to open file dialog boxes for selecting directories.
+- *Python 3.x* or higher
+- *Libraries:* 
+  - requests
+  - tkinter
 
-Conclusion:
-The URL Downloader project is a straightforward tool that simplifies downloading files from URLs by providing an intuitive graphical interface. Users can easily input their desired URL and specify where they want their files saved without needing any technical expertise. This application serves as an excellent example of how Python can be used for practical tasks while leveraging libraries like Tkinter for GUI development and Requests for web interactions.
+---
+
+## Installation Steps
+
+Follow these steps to get the URL File Downloader application running:
+
+1. *Clone or download* the project to your local machine.
+2. *Navigate to the project directory.*
+3. *Create a virtual environment (optional but recommended):*
+
+    bash
+    python -m venv venv
+    
+
+4. *Activate the virtual environment:*
+    - For *Windows*:
+
+        bash
+        venv\Scripts\activate
+        
+
+    - For *Linux/macOS*:
+
+        bash
+        source venv/bin/activate
+        
+
+5. *Install required dependencies:*
+
+    bash
+    pip install -r requirements.txt
+    
+
+6. *Run the application:*
+
+    bash
+    python file_downloader.py
+    
+
+---
+
+## How to Use the URL File Downloader
+
+Follow these steps to use the application:
+
+1. Open the application by running the Python script.
+2. In the application window, enter the URL of the file you want to download.
+3. Enter the filename that you want the downloaded file to be saved as.
+4. Click the "Browse" button to choose the destination folder for the downloaded file.
+5. Click the "Submit" button to start the download process.
+
+---
+
+## Features
+
+The URL File Downloader comes with the following key features:
+
+- *Download from any URL* – Allows users to download files from any URL.
+- *Choose Destination Path* – Users can specify where the downloaded file should be saved.
+- *Simple User Interface* – Intuitive UI with easy input fields and buttons for browsing and submitting.
+- *Cross-Platform Support* – Works on both Windows and Linux operating systems.
+
+---
+
+## Screenshots
+
+Here are some screenshots of the URL File Downloader in action:
+
+<div style="display: flex; justify-content: center; gap: 50px;">
+
+  <img src="pics/url1.png" alt="url downloader in Action" width="500" height="400" />
+
+  <img src="pics/url2.png" alt="url downloader in Action" width="500" height="400" />
+
+</div>
+
+---
+
+## Troubleshooting
+
+If you encounter any issues, here are some common solutions:
+
+- *Problem:* "ValueError: Amount must be greater than zero."  
+  *Solution:* Make sure you enter a valid positive number for the amount.
+
+- *Problem:* "TypeError: Data is empty."  
+  *Solution:* Ensure you have added some entries before trying to calculate profit or loss.
+
+- *Problem:* "ModuleNotFoundError" or missing libraries.  
+  *Solution:* Install missing dependencies using:
+
+    bash
+    pip install -r requirements.txt
+    
+
+---
+
+## Contact Support
+
+If you need additional help, feel free to contact us:
+
+- *Email:* [govindgupta057@gmail.com](mailto:govindgupta057@gmail.com.com)
+- *GitHub Repository:* [https://github.com/Govindg1211/budget-tracker](https://github.com/Govindg1211/budget-tracker)
+
+We are happy to assist you with any questions or issues you may have!
+
+---
+
+&copy; 2024 Budget Tracker | All Rights Reserved
